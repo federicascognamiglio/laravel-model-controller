@@ -9,16 +9,11 @@
 </head>
 <body>
     <header>
-
+        @include('Partials.header')
     </header>
 
     <main>
         @yield('content')
     </main>
-
-    <footer>
-        
-    </footer>
-    
 </body>
 </html>
